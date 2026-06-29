@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-image: url('bg.png');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 30rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #969696;
+    background: linear-gradient(320deg, rgba(150, 150, 150, 1) 0%, rgba(71, 70, 70, 1) 100%);
+    padding: 30px;
+    border-radius: 1rem;
+    border:#262424 solid 7px;
+}
+
+h1 {
+    font-family: 'Brush 445', Courier, monospace;
+    color: #ffff00;
+    margin-bottom: 2rem;
+}
+
+#intro {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#dialogue {
+    color: rgb(0, 0, 0);
+    font-family: 'DFTFLeiSho-W5';
+    text-shadow: 2px 2px 3px #ec0303;
+    margin-bottom: 3rem; 
+}
+
+#tip {
+    color: #000000;
+    text-shadow: 2px 2px 3px rgb(255, 43, 43) ;
+}
+
+input {
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem 0 0.5rem 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: #262424;
+    color: white;
+}
+
+button {
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    background: #262424;
+    color: white;
+}
+
+button:active {
+    background: black;
+    color: red;
+}
